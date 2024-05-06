@@ -28,4 +28,8 @@
    - If we want to get all the characters from index 11 to the end of the string, we can use the syntax name[11:], leaving the end of the string unspecified.
    - Python has a few ways to create strings, including string concatenation and f-strings. F-strings allow us to insert variables or expressions inside curly braces in a string. We can also do rounding and number formatting with f-strings. The format function is similar to f-strings and was used in versions of Python prior to 3.6.
    - Python has a handy feature for creating multi-line strings by using triple quotes. If we need to include literal triple quotes in the string, we can escape them with a backslash.
-   - 
+
+5. Bytes
+   - When Python loads that data, it knows what type it is - string, int, class, etc. But sometimes all you want is raw data, like a random sequence of ones and zeros. That's where the bytes object comes in.
+   - It's just a sequence of data and Python doesn't need to know anything else about it. The bytes object is commonly used for streaming files or transmitting texts without knowing the encoding.
+   - Bytes objects are immutable, like tuples, but you can use a byte array if you need to modify the data. You can treat a byte array like a string and modify specific byte values using slice notation. You can use the int library to convert hexadecimal values, like a shrugging emoji, back to bytes. And that's how to find, detect, use, and modify bytes in Python.
