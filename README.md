@@ -19,3 +19,13 @@
 3. Booleans
    - Python easily casts integers to booleans - 1 is true and 0 is false
    - What about strings? Boolean true is true, of course, and anything other than an empty string is also true. So even the string "false" is true. The only false string is an empty one, but be careful not to accidentally have a space in there.
+   - We can also cast data structures to booleans. An empty list or dictionary is false, but anything inside is true. When Python returns a non-value from a function, it is cast to false.
+
+4. Strings
+   - Python has numerous tools to analyze and construct strings, and one of the most useful is slicing. Slicing refers to taking a portion of a string and returning it.
+   - For example, if we have the string "My name is Iron-Man," we can get the first character by using name[0], since programmers start counting from zero.
+   - We can also get the second character with name[1]. If we want to get the first seven characters of the string, we can use the syntax name[0:7], which gets the characters between zero and index seven, but not including the space after "name."
+   - If we want to get all the characters from index 11 to the end of the string, we can use the syntax name[11:], leaving the end of the string unspecified.
+   - Python has a few ways to create strings, including string concatenation and f-strings. F-strings allow us to insert variables or expressions inside curly braces in a string. We can also do rounding and number formatting with f-strings. The format function is similar to f-strings and was used in versions of Python prior to 3.6.
+   - Python has a handy feature for creating multi-line strings by using triple quotes. If we need to include literal triple quotes in the string, we can escape them with a backslash.
+   - 
